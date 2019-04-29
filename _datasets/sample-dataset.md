@@ -1,6 +1,6 @@
 ---
 schema: default
-title: Sample dataset
+title: Air Monitoring Stations
 organization: Sample Department
 notes: This is an example dataset that comes with a new installation of JKAN
 resources:
@@ -15,7 +15,7 @@ resources:
     format: api
 license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
 category:
-  - Education
+  - Environment
 maintainer: Tim Wisniewski
 maintainer_email: tim@timwis.com
 ---
