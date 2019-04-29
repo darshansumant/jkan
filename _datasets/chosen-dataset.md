@@ -1,21 +1,21 @@
 ---
 schema: default
-title: Chosen dataset
-organization: Sample Department
+title: Payments Data
+organization: City of Philadelphia
 notes: These are datasets chosen to be shared on Darshan's JKAN instance
 resources:
-  - name: Air Monitoring Stations CSV
-    url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.csv'
+  - name: FY 2017 Detailed City Payments (CSV)
+    url: 'https://www.opendataphilly.org/dataset/city-payments/resource/b88bb9ec-89f9-470a-bdbb-668d56a998cf'
     format: csv
-  - name: Air Monitoring Stations Shapefile
-    url: 'http://data.phl.opendata.arcgis.com/datasets/1839b35258604422b0b520cbb668df0d_0.zip'
-    format: shp
-  - name: Air Monitoring Stations GeoService
-    url: 'https://services.arcgis.com/fLeGjb7u4uXqeF9q/arcgis/rest/services/Air_Monitoring_Stations/FeatureServer/0/query'
+  - name: FY 2017 Detailed City Payments (API)
+    url: 'https://cityofphiladelphia.github.io/carto-api-explorer/#city_payments_fy2017'
     format: api
-license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
+  - name: FY 2017 Detailed City Payments Visualization (API)
+    url: 'https://data.phila.gov/visualizations/payments'
+    format: html
+license: 'Other (City of Philadelphia)'
 category:
-  - Education
+  - Budget/Finance
 maintainer: Darshan Sumant
 maintainer_email: darshansumant@uchicago.edu
 ---
