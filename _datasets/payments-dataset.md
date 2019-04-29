@@ -13,6 +13,9 @@ resources:
   - name: FY 2017 Detailed City Payments Visualization (API)
     url: 'https://data.phila.gov/visualizations/payments'
     format: html
+  - name: FY 2017 Detailed City Payments Visualization (Metadata)
+    url: 'http://metadata.phila.gov/index.html#home/datasetdetails/5c4243d6a074de085a899716/representationdetails/5c4243d7a074de085a89971a/?view_287_per_page=50&view_287_page=1'
+    format: html
 license: 'Other (City of Philadelphia)'
 category:
   - Budget/Finance
