@@ -1,8 +1,8 @@
 ---
 schema: default
 title: Property Assessments Data
-organization: City of Philadelphia - Property Assessments
-notes: These are DOR Boundaries of real estate property parcels derived from legal recorded deed documents.
+organization: City of Philadelphia - Office of Property Assessment
+notes: Property characteristic and assessment information from the Office of Property Assessment. Updated twice per week.
 resources:
   - name: Property Assessments (CSV)
     url: 'https://phl.carto.com/api/v2/sql?q=SELECT+%2A,+ST_Y%28the_geom%29+AS+lat,+ST_X%28the_geom%29+AS+lng+FROM+opa_properties_public&filename=opa_properties_public&format=csv&skipfields=cartodb_id,the_geom,the_geom_webmercator'
@@ -15,7 +15,7 @@ resources:
     format: geoJSON
   - name: Property Assessments (API)
     url: 'https://cityofphiladelphia.github.io/carto-api-explorer/#opa_properties_public'
-    format: html
+    format: api
   - name: Property Assessments (Visualizations)
     url: 'https://data.phila.gov/visualizations/property-assessments'
     format: html
