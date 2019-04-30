@@ -1,10 +1,15 @@
+/*
+CSS Customization written by Darshan Sumant
+Copied over from main.css
+*/
+
 .organization-thumbnail img {
-  width: 64px;
+  width: 80px; /* increased thumbnail size to match description display */
 }
 
 dataset {
   display: block;
-  border-bottom: 1px #d6d6d6 solid;
+  border-bottom: 1px #a9a9a9 dashed; /* dataset partitions */
   padding-bottom: 20px;
 }
 
@@ -82,7 +87,7 @@ dataset {
 }
 
 .homepage-categories a {
-  color: #000;
+  color: #A9A9A9; /* making category names easier on the eyes */
 }
 
 .theme-gallery .panel {
@@ -98,3 +103,37 @@ dataset {
 .theme-gallery .panel-primary {
   border-width: 5px;
 }
+
+/* Modifying the Navigation Bar at the top of the page */
+.navbar {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  background-color: #337AB7;
+}
+
+/* Modify Navigation Bar on the Home Page */
+.navbar .navbar-brand {
+    padding-left: 0;
+    margin-left: 0;
+    color: #FFFFFF;
+    text-align: center;
+  }
+
+  /* Add a solid underline when you hover on to the Navigtion Bar */
+  .navbar .navbar-brand:hover {
+    border-bottom: solid 1px #FFFFFF;
+  }
+
+  /* Modify Navigation Bar on the Other Pages */
+  .nav .navbar-nav {
+      padding-left: 0;
+      margin-left: 0;
+      color: #FFFFFF;
+      text-align: center;
+  }
+
+  /* Add a solid underline when you hover on to the Navigtion Bar */
+  .navbar .navbar-nav:hover {
+    border-bottom: solid 1px #FFFFFF;
+    color: #FFFFFF;
+  }
