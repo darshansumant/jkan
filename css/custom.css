@@ -113,27 +113,54 @@ dataset {
 
 /* Modify Navigation Bar on the Home Page */
 .navbar .navbar-brand {
-    padding-left: 0;
-    margin-left: 0;
-    color: #FFFFFF;
-    text-align: center;
-  }
+  padding-left: 0;
+  margin-left: 0;
+  text-align: center;
+}
 
   /* Add a solid underline when you hover on to the Navigtion Bar */
   .navbar .navbar-brand:hover {
     border-bottom: solid 1px #FFFFFF;
+    background-color: #e6e6e6;
+    color: #800000;
   }
 
   /* Modify Navigation Bar on the Other Pages */
-  .nav .navbar-nav {
-      padding-left: 0;
-      margin-left: 0;
-      color: #FFFFFF;
-      text-align: center;
+  .navbar .navbar-nav {
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
   }
 
-  /* Add a solid underline when you hover on to the Navigtion Bar */
-  .navbar .navbar-nav:hover {
-    border-bottom: solid 1px #FFFFFF;
-    color: #FFFFFF;
+  .navbar li {
+    float: left;
+    margin-left: 0.5em;
+    list-style-type: none;
+    color: #e6e6e6;
+    background-color: #800000;
   }
+
+  .navbar .navbar-right li {
+    float: right;
+  }
+
+  .navbar .nav > li > a {
+    border: solid 2px #e6e6e6;
+    color: #e6e6e6;
+    border-radius: 2px;
+  }
+
+    .navbar .nav > li > a:hover {
+      background-color: #e6e6e6;
+      color: #800000;
+    }
+
+    .navbar .nav > li.active > a {
+      background-color: #e6e6e6;
+      color: #800000;
+    }
+
+    .navbar .nav > li.active > a:hover {
+      background-color: #e6e6e6;
+      color: #800000;
+    }
